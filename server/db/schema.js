@@ -1,14 +1,14 @@
-// const {Pool} = require('pg');
+const {Pool} = require('pg');
 
-// const pool = new Pool({
-//   host: 'localhost',
-//   port: 5432,
-//   user: 'huantran',
-//   database: 'sdc',
-//   password: ''
-// });
+const pool = new Pool({
+  host: 'localhost',
+  port: 5432,
+  user: 'huantran',
+  database: 'sdc',
+  password: ''
+});
 
-// module.exports = pool;
+module.exports = pool;
 
 // Create reviews table
 pool
